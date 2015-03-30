@@ -14,6 +14,9 @@
 		BC4022071AA6E5BC00FCDDA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4022061AA6E5BC00FCDDA6 /* Images.xcassets */; };
 		BC40220A1AA6E5BC00FCDDA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC4022081AA6E5BC00FCDDA6 /* LaunchScreen.xib */; };
 		BC4022161AA6E5BC00FCDDA6 /* _2___kvc__kvo_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4022151AA6E5BC00FCDDA6 /* _2___kvc__kvo_____Tests.m */; };
+		BC4022211AA6E71A00FCDDA6 /* Kar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4022201AA6E71A00FCDDA6 /* Kar.m */; };
+		BC4022241AA6F16A00FCDDA6 /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4022231AA6F16A00FCDDA6 /* Engine.m */; };
+		BC4022271AA6FA6900FCDDA6 /* QZBike.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4022261AA6FA6900FCDDA6 /* QZBike.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		BC40220F1AA6E5BC00FCDDA6 /* 02 --kvc--kvo 设计模式Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02 --kvc--kvo 设计模式Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4022141AA6E5BC00FCDDA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC4022151AA6E5BC00FCDDA6 /* _2___kvc__kvo_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2___kvc__kvo_____Tests.m"; sourceTree = "<group>"; };
+		BC40221F1AA6E71A00FCDDA6 /* Kar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kar.h; sourceTree = "<group>"; };
+		BC4022201AA6E71A00FCDDA6 /* Kar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kar.m; sourceTree = "<group>"; };
+		BC4022221AA6F16A00FCDDA6 /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		BC4022231AA6F16A00FCDDA6 /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		BC4022251AA6FA6900FCDDA6 /* QZBike.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZBike.h; sourceTree = "<group>"; };
+		BC4022261AA6FA6900FCDDA6 /* QZBike.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZBike.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,12 @@
 				BC4021FE1AA6E5BC00FCDDA6 /* AppDelegate.m */,
 				BC4022001AA6E5BC00FCDDA6 /* ViewController.h */,
 				BC4022011AA6E5BC00FCDDA6 /* ViewController.m */,
+				BC4022251AA6FA6900FCDDA6 /* QZBike.h */,
+				BC4022261AA6FA6900FCDDA6 /* QZBike.m */,
+				BC4022221AA6F16A00FCDDA6 /* Engine.h */,
+				BC4022231AA6F16A00FCDDA6 /* Engine.m */,
+				BC40221F1AA6E71A00FCDDA6 /* Kar.h */,
+				BC4022201AA6E71A00FCDDA6 /* Kar.m */,
 				BC4022031AA6E5BC00FCDDA6 /* Main.storyboard */,
 				BC4022061AA6E5BC00FCDDA6 /* Images.xcassets */,
 				BC4022081AA6E5BC00FCDDA6 /* LaunchScreen.xib */,
@@ -221,7 +236,10 @@
 			files = (
 				BC4022021AA6E5BC00FCDDA6 /* ViewController.m in Sources */,
 				BC4021FF1AA6E5BC00FCDDA6 /* AppDelegate.m in Sources */,
+				BC4022211AA6E71A00FCDDA6 /* Kar.m in Sources */,
 				BC4021FC1AA6E5BC00FCDDA6 /* main.m in Sources */,
+				BC4022241AA6F16A00FCDDA6 /* Engine.m in Sources */,
+				BC4022271AA6FA6900FCDDA6 /* QZBike.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
